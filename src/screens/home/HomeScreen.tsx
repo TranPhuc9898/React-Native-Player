@@ -16,7 +16,7 @@ const HomeScreen: React.FC<any> = ({navigation}) => {
     const handleOnPress = () => {
       switch (index) {
         case 0:
-          navigation.navigate('ListFootBallPlayer');
+          navigation.navigate('FavoritePlayScreen');
           break;
         case 1:
           break;

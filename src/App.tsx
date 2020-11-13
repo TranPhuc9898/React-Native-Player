@@ -18,7 +18,7 @@ const App = () => {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen} />
           <Stack.Screen
-            name="ListFootBallPlayer"
+            name="FavoritePlayScreen"
             component={FavoritePlayScreen}
           />
         </Stack.Navigator>
